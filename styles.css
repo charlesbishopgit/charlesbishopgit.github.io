@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+svg {
+float: right;
+}
+
+path {
+  fill: none;
+  stroke: #b90504;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+#kanji path {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 0;
+}
+.bodyIndent {
+	margin: 0 100px;
+}
+nav {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	background-color: #b90504;
+	border-top-style: double;
+	border-top-color: #fcd4d5;
+	border-bottom-style: double;
+	border-bottom-color: #fcd4d5;
+	padding: 15px 0;
+}
+a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #b90404;
+}
+nav a {
+	padding: 15px 25px;
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #fcd4d5;
+	font-weight: 700;
+}
+html {
+	background: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+body {
+	background-color: white;
+	box-shadow: 1px 1px 5px black;
+}
+.indent {
+	padding: 0 50px;
+}
+.hero h1 {
+	margin-top: 0;
+	font-size: 2.5em;
+}
+.hero{
+	padding: 50px 0 50px 35px;
+	background: url("images/heroBanner.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #fcd4d5;
+}
+footer{
+	padding: 25px 50px;
+	background: url("images/heroBanner.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #fcd4d5;
+}
+#map { 
+	width: 100%px;
+	max-width: 600px;
+	height: 605px;
+	margin: 50px auto;
+
+}
+#map a {
+	font-size: 1.2em;
+}
+p {
+	font-size: 1.2em;
+}
+
+.imageSmall {
+	float: right;
+	width: 25%;
+	border: 1px solid #b90404;
+	padding: 10px;
+	margin: 10px;
+}
+.video {
+	margin: 20px 0;
+	padding-top: 56.25%;
+	overflow: hidden;
+  	position: relative;
+}
+.video iframe {
+	border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+.video-4x3 {
+  padding-top: 75%;
+}
+.videoCont {
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+@media only screen and (max-width: 1024px) {
+	.bodyIndent {
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	nav a {
+		padding: 12px 7px;
+		font-size: 1em;
+		font-weight: 700;
+	}
+	.imageSmall {
+		float: none;
+		display: block;
+		width: 75%;
+		border: 1px solid #b90404;
+		padding: 5px;
+		margin: 7px auto;
+	}
+	.videoCont {
+	width: 100%;
+}
+	#kanji {
+		display:none;
+	}
+}

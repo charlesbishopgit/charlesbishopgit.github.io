@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+img.imageSmall
+{
+  padding: 10px; 
+  border: 2px darkgray solid;
+}
+div.caption
+{
+  color: darkgray;
+  font-size: 95%;
+}
+div.caption-marker
+{
+  float: left; 
+  margin-right: 0.2em;
+  text-align: left;
+}
+div.caption-text
+{
+  float: left;
+  clear: right;
+  text-align: left;
+}
+div.copyright
+{
+  text-align: right;
+  float: right;
+  color: darkgray;
+  font-family: "Franklin Gothic Book", Verdana;
+}
